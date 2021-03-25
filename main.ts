@@ -6,6 +6,7 @@ input.onButtonPressed(Button.A, function () {
         . # # # .
         . . . . .
         `)
+    basic.clearScreen()
 })
 input.onButtonPressed(Button.B, function () {
     basic.showLeds(`
@@ -15,4 +16,5 @@ input.onButtonPressed(Button.B, function () {
         . . . . .
         . . . . .
         `)
+    basic.clearScreen()
 })
